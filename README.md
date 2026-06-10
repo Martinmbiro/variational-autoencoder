@@ -1,7 +1,7 @@
 # Variational AutoEncoder
 > _Architecture_
 <center>
-<img src='https://github.com/Martinmbiro/variational-autoencoder/raw/refs/heads/main/plots/vae_lean.PNG' alt='vae_sketch' width=800/>
+<img src='https://github.com/Martinmbiro/variational-autoencoder/raw/refs/heads/main/plots/vae_dense.PNG' alt='vae_sketch' width=800/>
 </center>
 
 Hello again 👋
@@ -9,8 +9,8 @@ Hello again 👋
 + This project is a step-by-step implementation, training, and analysis of a vanilla VAE utilizing [PyTorch](https://pytorch.org/) and [PyTorch Lightning](https://lightning.ai/docs/pytorch/stable/). Despite this being a simple project, I implement early-stopping as a regularization technique, model checkpointing, a learing rate scheduler to improving convergence, and warm-up to stabilize training during initial batches and prevent optimization shocks
 + Find the notes and annotated code in the Jupyter Notebook - `01. VAE from scratch.ipynb`. Feel free to open and explore in Google Colab
 
-## Key concepts 📝
-Here's a few things to note with regard to Variational AutoEncoders:
+## Technical details ⚙️
+Here are some technical details to note with regard to Variational AutoEncoders. These will be referenced inside the notebook as well:
 #### **1. Encoder output**
 For a given input image, $x$, the encoder outputs two seperate vectors of equal length:
 >+ **Mean vector**, `mu` ($μ$) - Center points where image features are most likely to cluster
@@ -53,7 +53,7 @@ Mathematically:
 
 
 
-## Tools ⚒️
+## Tools 🛠️
 **The tools used for this repository are:**
 1. [Google Colab](https://colab.google/) - A hosted _Jupyter Notebook_ service by Google.
 2. [`torch`](https://pytorch.org/) - (PyTorch) - An open-source **Deep Learning** library
