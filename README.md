@@ -5,8 +5,8 @@
 </center>
 
 Hello again 👋
-+ A Variational AutoEncoder (VAE) is a foundational generative model introduced by [Diederik Kingma and Max Welling in 2013](https://arxiv.org/abs/1312.6114). It bridges the gap between traditional autoencoders (which compress data) and probabilistic generative models (which create new data). The goal of a VAE is to ouput new data in the form of random variations of the training data $x$
-+ This project is a step-by-step implementation, training, and analysis of a vanilla VAE utilizing [PyTorch](https://pytorch.org/) and [PyTorch Lightning](https://lightning.ai/docs/pytorch/stable/). Despite this being a simple project, I implement early-stopping as a regularization technique, model checkpointing, a learing rate scheduler to improving convergence, and warm-up to stabilize training during initial batches and prevent optimization shocks
++ A Variational AutoEncoder (VAE) is a foundational **generative model** introduced by [Diederik Kingma and Max Welling in 2013](https://arxiv.org/abs/1312.6114). It bridges the gap between traditional autoencoders (which compress data) and probabilistic generative models (which create new data). The goal of a VAE is to ouput new data in the form of random variations of the training data $x$
++ This project is a step-by-step implementation, training, and analysis of a vanilla VAE utilizing [PyTorch](https://pytorch.org/) and [PyTorch Lightning](https://lightning.ai/docs/pytorch/stable/). Despite this being a simple project, I implement early-stopping as a regularization technique, model checkpointing, a learning rate scheduler to improve convergence, and warm-up to stabilize training during initial batches and prevent optimization shocks
 + Find the notes and annotated code in the Jupyter Notebook - `01. VAE from scratch.ipynb`. Feel free to open and explore in Google Colab
 
 ## Technical details ⚙️
